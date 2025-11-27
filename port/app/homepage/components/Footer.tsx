@@ -19,16 +19,16 @@ const Footer = ({ className = '' }: FooterProps) => {
 
   const footerLinks = {
     navigation: [
-      { label: 'Home', href: '/homepage' },
-      { label: 'About', href: '/about' },
-      { label: 'Skills', href: '/skills' },
-      { label: 'Blog', href: '/blog' }
+      { id: 'nav-home', label: 'Home', href: '/homepage' },
+      { id: 'nav-about', label: 'About', href: '/about' },
+      { id: 'nav-skills', label: 'Skills', href: '/skills' },
+      { id: 'nav-blog', label: 'Blog', href: '/blog' }
     ],
     resources: [
-      { label: 'Contact', href: '/contact' },
-      { label: 'Resume', href: '/resume' },
-      { label: 'Projects', href: '/homepage' },
-      { label: 'Services', href: '/homepage' }
+      { id: 'res-contact', label: 'Contact', href: '/contact' },
+      { id: 'res-resume', label: 'Resume', href: '/resume' },
+      { id: 'res-projects', label: 'Projects', href: '/homepage' },
+      { id: 'res-services', label: 'Services', href: '/homepage' }
     ]
   };
 
@@ -73,7 +73,7 @@ const Footer = ({ className = '' }: FooterProps) => {
             <h3 className="font-headline font-semibold text-lg mb-4">Navigation</h3>
             <ul className="space-y-2">
               {footerLinks.navigation.map((link) => (
-                <li key={link.href}>
+                <li key={link.id}>
                   <Link
                     href={link.href}
                     className="text-slate-400 hover:text-primary transition-fast text-sm"
@@ -89,7 +89,7 @@ const Footer = ({ className = '' }: FooterProps) => {
             <h3 className="font-headline font-semibold text-lg mb-4">Resources</h3>
             <ul className="space-y-2">
               {footerLinks.resources.map((link) => (
-                <li key={link.href}>
+                <li key={link.id}>
                   <Link
                     href={link.href}
                     className="text-slate-400 hover:text-primary transition-fast text-sm"

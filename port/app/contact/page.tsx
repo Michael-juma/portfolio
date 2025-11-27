@@ -66,10 +66,6 @@ export default function ContactPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#project-inquiry"
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.querySelector('form')?.scrollIntoView({ behavior: 'smooth' });
-                }}
                 className="px-8 py-4 bg-gradient-to-r from-conversion via-primary to-accent text-conversion-foreground font-cta font-bold rounded-lg hover:scale-105 hover:shadow-brand-lg transition-smooth shadow-brand"
               >
                 Fill Out Project Form
