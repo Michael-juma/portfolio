@@ -100,31 +100,31 @@ export default function ResumeInteractive() {
   {
     icon: 'PhoneIcon',
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    link: 'tel:+15551234567'
+    value: '+254 725745754',
+    link: 'tel:+254725745754'
   },
   {
     icon: 'MapPinIcon',
     label: 'Location',
-    value: 'San Francisco, CA'
+    value: 'Nairobi, KE'
   },
   {
     icon: 'GlobeAltIcon',
     label: 'Website',
     value: 'www.juma.dev',
-    link: 'https://www.juma.dev'
+    link: 'mailto:obudho76@gmail.com?subject=Hello&body=Hi%20there%2C%20I%20want%20to%20message%20you.'
   },
   {
     icon: 'CodeBracketIcon',
     label: 'GitHub',
     value: 'github.com/jumadev',
-    link: 'https://github.com/jumadev'
+    link: 'https://github.com/Michael-juma'
   },
   {
     icon: 'UserGroupIcon',
     label: 'LinkedIn',
     value: 'linkedin.com/in/jumadev',
-    link: 'https://linkedin.com/in/jumadev'
+    link: 'https://www.linkedin.com/in/michael-juma-obudho-497190364/'
   }];
 
 
@@ -211,11 +211,10 @@ export default function ResumeInteractive() {
   const education: Education[] = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "University of California, Berkeley",
-    duration: "2012 - 2016",
-    location: "Berkeley, CA",
-    gpa: "3.8/4.0",
+    degree: "Certificate in Software Engineering",
+    institution: "Moringa School of Technology",
+    duration: "2025 - 2026",
+    location: "Ngong road, Nairobi, KE",
     honors: ["Dean's List", "Cum Laude", "CS Department Honors"],
     relevantCourses: [
     "Data Structures & Algorithms",
@@ -232,33 +231,33 @@ export default function ResumeInteractive() {
   {
     category: "Frontend Development",
     skills: [
-    { name: "React.js", level: 95, years: 6 },
-    { name: "Next.js", level: 90, years: 4 },
-    { name: "TypeScript", level: 90, years: 5 },
-    { name: "JavaScript (ES6+)", level: 95, years: 8 },
-    { name: "HTML5 & CSS3", level: 95, years: 8 },
-    { name: "Tailwind CSS", level: 85, years: 3 }]
+    { name: "React.js", level: 95, years: 1 },
+    { name: "Next.js", level: 90, years: 2 },
+    { name: "TypeScript", level: 90, years: 1 },
+    { name: "JavaScript (ES6+)", level: 95, years: 2 },
+    { name: "HTML5 & CSS3", level: 95, years: 2 },
+    { name: "Tailwind CSS", level: 85, years: 2}
+  ]
 
   },
   {
     category: "Backend Development",
     skills: [
-    { name: "Python", level: 90, years: 6 },
-    { name: "Django", level: 85, years: 5 },
-    { name: "Node.js", level: 85, years: 5 },
-    { name: "Express.js", level: 80, years: 4 },
-    { name: "RESTful APIs", level: 90, years: 6 },
-    { name: "GraphQL", level: 75, years: 3 }]
+    { name: "Python", level: 90, years: 2 },
+    { name: "Django", level: 85, years: 1 },
+    { name: "Node.js", level: 85, years: 2 },
+    { name: "RESTful APIs", level: 90, years: 2 },
+    { name: "GraphQL", level: 75, years: 1 }]
 
   },
   {
     category: "Database & Cloud",
     skills: [
-    { name: "PostgreSQL", level: 85, years: 5 },
-    { name: "MongoDB", level: 80, years: 4 },
-    { name: "Redis", level: 75, years: 3 },
-    { name: "AWS", level: 80, years: 4 },
-    { name: "Docker", level: 85, years: 4 },
+    { name: "PostgreSQL", level: 85, years: 2 },
+    { name: "MongoDB", level: 80, years: 2 },
+    { name: "Redis", level: 75, years: 2 },
+    { name: "AWS", level: 80, years: 2 },
+    { name: "Docker", level: 85, years: 2 },
     { name: "Kubernetes", level: 70, years: 2 }]
 
   },
@@ -266,11 +265,10 @@ export default function ResumeInteractive() {
     category: "Tools & Practices",
     skills: [
     { name: "Git & GitHub", level: 95, years: 8 },
-    { name: "CI/CD", level: 85, years: 4 },
-    { name: "Agile/Scrum", level: 90, years: 6 },
-    { name: "Jest & Testing", level: 85, years: 5 },
-    { name: "Webpack", level: 80, years: 4 },
-    { name: "Performance Optimization", level: 90, years: 6 }]
+    { name: "CI/CD", level: 85, years: 2 },
+    { name: "Agile/Scrum", level: 90, years: 2 },
+    { name: "Jest & Testing", level: 85, years: 2 },
+    { name: "Performance Optimization", level: 90, years: 2 }]
 
   }];
 
@@ -282,7 +280,7 @@ export default function ResumeInteractive() {
     issuer: "Amazon Web Services",
     date: "March 2023",
     credentialId: "AWS-SA-2023-12345",
-    logo: "https://img.rocket.new/generatedImages/rocket_gen_img_13eab3672-1764231355425.png",
+    logo: "https://i.pinimg.com/736x/8e/85/c3/8e85c3b1c3d2048157c5422ae092af6c.jpg",
     logoAlt: "AWS certification badge with orange and white cloud logo",
     verifyLink: "https://aws.amazon.com/verification"
   },
@@ -292,7 +290,7 @@ export default function ResumeInteractive() {
     issuer: "Scrum.org",
     date: "January 2022",
     credentialId: "PSM-I-2022-67890",
-    logo: "https://img.rocket.new/generatedImages/rocket_gen_img_1aa0ddee1-1764231357090.png",
+    logo: "https://i.pinimg.com/736x/22/de/c0/22dec0f76243bbee61ba2bb885678555.jpg",
     logoAlt: "Scrum.org certification badge with blue circular design",
     verifyLink: "https://scrum.org/verify"
   },
@@ -302,26 +300,16 @@ export default function ResumeInteractive() {
     issuer: "Meta (Facebook)",
     date: "September 2021",
     credentialId: "META-FE-2021-11223",
-    logo: "https://img.rocket.new/generatedImages/rocket_gen_img_16a62497e-1764231356091.png",
+    logo: "https://i.pinimg.com/736x/2a/b0/c7/2ab0c7c2e1aacd264917168785941723.jpg",
     logoAlt: "Meta certification badge with blue gradient logo",
     verifyLink: "https://coursera.org/verify"
-  },
-  {
-    id: 4,
-    name: "Google Cloud Professional",
-    issuer: "Google Cloud",
-    date: "June 2023",
-    credentialId: "GCP-PRO-2023-44556",
-    logo: "https://img.rocket.new/generatedImages/rocket_gen_img_18f05e809-1764231355154.png",
-    logoAlt: "Google Cloud certification badge with multicolor cloud icon",
-    verifyLink: "https://cloud.google.com/verify"
   }];
 
 
   const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Sarah Mitchell",
+    name: "Michael Ouma",
     position: "VP of Engineering",
     company: "TechCorp Solutions",
     relationship: "Direct Manager",
@@ -332,7 +320,7 @@ export default function ResumeInteractive() {
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Sam Tomashi",
     position: "Product Manager",
     company: "TechCorp Solutions",
     relationship: "Colleague",
@@ -340,28 +328,6 @@ export default function ResumeInteractive() {
     avatar: "https://img.rocket.new/generatedImages/rocket_gen_img_1bd15b436-1763300581767.png",
     avatarAlt: "Professional headshot of Asian man with glasses in gray suit",
     linkedIn: "https://linkedin.com/in/michaelchen"
-  },
-  {
-    id: 3,
-    name: "Emily Rodriguez",
-    position: "Senior Frontend Developer",
-    company: "StartupHub Inc",
-    relationship: "Former Colleague",
-    testimonial: "Juma is one of the most talented developers I've had the privilege to work with. His expertise in React and modern web technologies is impressive, but what sets him apart is his dedication to code quality and best practices. He introduced our team to advanced testing strategies and performance optimization techniques that significantly improved our codebase. I learned so much from working alongside him.",
-    avatar: "https://img.rocket.new/generatedImages/rocket_gen_img_162a57531-1763296100992.png",
-    avatarAlt: "Professional headshot of Hispanic woman with long dark hair in white blouse",
-    linkedIn: "https://linkedin.com/in/emilyrodriguez"
-  },
-  {
-    id: 4,
-    name: "David Thompson",
-    position: "CTO",
-    company: "Digital Agency Pro",
-    relationship: "Former Supervisor",
-    testimonial: "Juma joined our team as a junior developer and quickly proved himself to be a fast learner and reliable contributor. His growth trajectory was remarkable - within a year, he was leading projects and mentoring other developers. His work ethic, technical skills, and positive attitude made him a standout member of our team. Any organization would be lucky to have him.",
-    avatar: "https://img.rocket.new/generatedImages/rocket_gen_img_10e52a26f-1763294215038.png",
-    avatarAlt: "Professional headshot of man with beard in blue shirt",
-    linkedIn: "https://linkedin.com/in/davidthompson"
   }];
 
 

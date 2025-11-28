@@ -18,9 +18,9 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
   }, []);
 
   const fullCode = `const developer = {
-  name: "Juma",
-  role: "Fullstack Engineer",
-  expertise: ["React", "Next.js", "Python"],
+  name: "Michael Obudho Juma",
+  role: "Fullstack Software Engineer",
+  expertise: ["React", "Next.js", "Python", "HTML", "CSS", "JavaScript", "Bootstrap", "Node.js", "SQLAlchemy", "Flask", "JWT"],
   passion: "Building elegant solutions",
   mission: "Code that works beautifully"
 };`;
