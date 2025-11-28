@@ -1,16 +1,13 @@
 {
   "root": true,
   "extends": [
-    "next/core-web-vitals",
     "eslint:recommended",
+    "next/core-web-vitals",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint",
-    "prettier"
-  ],
+  "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
     "prettier/prettier": [
       "error",
@@ -35,23 +32,14 @@
     "no-console": [
       "warn",
       {
-        "allow": [
-          "warn",
-          "error",
-          "info"
-        ]
+        "allow": ["warn", "error", "info"]
       }
     ]
   },
-  "ignorePatterns": [
-    "node_modules/",
-    ".next/",
-    "out/",
-    "public/"
-  ],
+  "ignorePatterns": ["node_modules/", ".next/", "out/", "public/"],
   "env": {
     "browser": true,
     "node": true,
-    "es6": true
+    "es2021": true
   }
 }
