@@ -27,13 +27,16 @@ export default function StorySection({ story }: StorySectionProps) {
             </div>
           </div>
           <div className="order-1 lg:order-2">
-            <div className="relative rounded-xl overflow-hidden shadow-brand-lg aspect-video lg:aspect-[4/3]">
-              <AppImage
-                src={story.image}
-                alt={story.imageAlt}
-                fill
-                className="object-cover"
-              />
+            <div className="rounded-xl overflow-hidden shadow-brand-lg mx-auto max-w-md lg:max-w-lg">
+              <div className="w-full">
+                <AppImage
+                  src={story.image}
+                  alt={story.imageAlt}
+                  width={1200}
+                  height={800}
+                  className="w-full h-auto object-cover block"
+                />
+              </div>
             </div>
           </div>
         </div>
