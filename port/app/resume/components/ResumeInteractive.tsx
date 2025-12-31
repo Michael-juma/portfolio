@@ -94,8 +94,8 @@ export default function ResumeInteractive() {
   {
     icon: 'EnvelopeIcon',
     label: 'Email',
-    value: 'juma@jumadev.com',
-    link: 'mailto:juma@jumadev.com'
+    value: 'obudho200@gmail.com',
+    link: 'mailto:obudho200@gmail.com'
   },
   {
     icon: 'PhoneIcon',
@@ -112,18 +112,18 @@ export default function ResumeInteractive() {
     icon: 'GlobeAltIcon',
     label: 'Website',
     value: 'www.juma.dev',
-    link: 'mailto:obudho76@gmail.com?subject=Hello&body=Hi%20there%2C%20I%20want%20to%20message%20you.'
+    link: 'https://www.juma.dev'
   },
   {
     icon: 'CodeBracketIcon',
     label: 'GitHub',
-    value: 'github.com/jumadev',
+    value: 'github.com/Michael-juma',
     link: 'https://github.com/Michael-juma'
   },
   {
     icon: 'UserGroupIcon',
     label: 'LinkedIn',
-    value: 'linkedin.com/in/jumadev',
+    value: 'linkedin.com/in/michael-juma-obudho-497190364',
     link: 'https://www.linkedin.com/in/michael-juma-obudho-497190364/'
   }];
 

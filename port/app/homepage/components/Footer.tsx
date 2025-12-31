@@ -33,9 +33,9 @@ const Footer = ({ className = '' }: FooterProps) => {
   };
 
   const socialLinks = [
-    { name: 'GitHub', icon: 'CodeBracketIcon', href: 'https://github.com/juma', label: 'GitHub Profile' },
-    { name: 'LinkedIn', icon: 'UserGroupIcon', href: 'https://linkedin.com/in/juma', label: 'LinkedIn Profile' },
-    { name: 'Twitter', icon: 'ChatBubbleLeftIcon', href: 'https://twitter.com/juma', label: 'Twitter Profile' },
+    { name: 'GitHub', icon: 'CodeBracketIcon', href: 'https://github.com/Michael-juma', label: 'GitHub Profile' },
+    { name: 'LinkedIn', icon: 'UserGroupIcon', href: 'https://www.linkedin.com/in/michael-juma-obudho-497190364/', label: 'LinkedIn Profile' },
+    { name: 'X', icon: 'AtSymbolIcon', href: 'https://x.com/MichaelJum96316', label: 'X Profile' },
     { name: 'Email', icon: 'EnvelopeIcon', href: 'mailto:obudho200@gmail.com', label: 'Email Contact' }
   ];
 
@@ -112,13 +112,13 @@ const Footer = ({ className = '' }: FooterProps) => {
                 obudho200@gmail.com
               </a>
               <a
-                href="https://github.com/juma"
+                href="https://github.com/Michael-juma"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-slate-400 hover:text-primary transition-fast text-sm"
               >
                 <Icon name="CodeBracketIcon" size={18} />
-                github.com/juma
+                github.com/Michael-juma
               </a>
               <Link
                 href="/contact"

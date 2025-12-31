@@ -20,31 +20,40 @@ export default function SocialLinks({ className = '' }: SocialLinksProps) {
       id: '1',
       name: 'GitHub',
       icon: 'CodeBracketIcon',
-      href: 'https://github.com/juma-dev',
-      username: '@juma-dev',
+      href: 'https://github.com/Michael-juma',
+      username: 'Michael-juma',
       color: 'hover:text-white',
       bgGradient: 'hover:bg-gradient-to-br hover:from-slate-900 hover:to-slate-700'
     },
     {
       id: '2',
-      name: 'Twitter',
+      name: 'LinkedIn',
+      icon: 'LinkIcon',
+      href: 'https://www.linkedin.com/in/michael-juma-obudho-497190364/',
+      username: 'Michael Juma Obudho',
+      color: 'hover:text-white',
+      bgGradient: 'hover:bg-gradient-to-br hover:from-blue-700 hover:to-blue-500'
+    },
+    {
+      id: '3',
+      name: 'X',
       icon: 'AtSymbolIcon',
-      href: 'https://twitter.com/juma_dev',
-      username: '@juma_dev',
+      href: 'https://x.com/MichaelJum96316',
+      username: '@MichaelJum96316',
       color: 'hover:text-white',
       bgGradient: 'hover:bg-gradient-to-br hover:from-sky-500 hover:to-blue-600'
     },
     {
-      id: '3',
+      id: '4',
       name: 'Facebook',
       icon: 'UserGroupIcon',
-      href: 'https://facebook.com/juma.dev',
-      username: 'juma.dev',
+      href: 'https://www.facebook.com/profile.php?id=100090904490870',
+      username: 'Michael Juma',
       color: 'hover:text-white',
       bgGradient: 'hover:bg-gradient-to-br hover:from-blue-600 hover:to-indigo-700'
     },
     {
-      id: '4',
+      id: '5',
       name: 'WhatsApp',
       icon: 'ChatBubbleLeftRightIcon',
       href: 'https://wa.me/254725745754',
@@ -53,7 +62,7 @@ export default function SocialLinks({ className = '' }: SocialLinksProps) {
       bgGradient: 'hover:bg-gradient-to-br hover:from-green-500 hover:to-emerald-600'
     },
     {
-      id: '5',
+      id: '6',
       name: 'Email',
       icon: 'EnvelopeIcon',
       href: 'mailto:obudho200@gmail.com',

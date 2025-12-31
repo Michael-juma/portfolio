@@ -97,13 +97,30 @@ export default function ContactPage() {
                   <p className="text-xs text-text-secondary">All rights reserved</p>
                 </div>
               </div>
-              <div className="flex items-center gap-6 text-sm text-text-secondary">
-                <a href="/homepage" className="hover:text-primary transition-colors font-medium">
-                  Home
-                </a>
-                <a href="/contact" className="hover:text-primary transition-colors font-medium">
-                  Contact
-                </a>
+              <div className="flex items-center gap-6">
+                <div className="flex items-center gap-4 text-text-secondary">
+                  <a href="https://github.com/Michael-juma" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="hover:text-primary transition-colors">
+                    <Icon name="CodeBracketIcon" size={18} />
+                  </a>
+                  <a href="https://www.linkedin.com/in/michael-juma-obudho-497190364/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="hover:text-primary transition-colors">
+                    <Icon name="LinkIcon" size={18} />
+                  </a>
+                  <a href="https://x.com/MichaelJum96316" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)" className="hover:text-primary transition-colors">
+                    <Icon name="AtSymbolIcon" size={18} />
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100090904490870" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="hover:text-primary transition-colors">
+                    <Icon name="UserGroupIcon" size={18} />
+                  </a>
+                </div>
+
+                <div className="hidden md:flex items-center gap-6 text-sm text-text-secondary">
+                  <a href="/homepage" className="hover:text-primary transition-colors font-medium">
+                    Home
+                  </a>
+                  <a href="/contact" className="hover:text-primary transition-colors font-medium">
+                    Contact
+                  </a>
+                </div>
               </div>
             </div>
           </div>

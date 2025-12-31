@@ -44,9 +44,9 @@ export default function ContactMethods({ className = '' }: ContactMethodsProps) 
       icon: 'AtSymbolIcon',
       title: 'Twitter',
       description: 'Connect and discuss on social media',
-      value: '@juma_dev',
-      action: 'Follow on Twitter',
-      href: 'https://twitter.com/juma_dev',
+      value: '@MichaelJum96316',
+      action: 'Follow on X',
+      href: 'https://x.com/MichaelJum96316',
       gradient: 'from-sky-500/20 to-blue-600/20'
     },
     {
@@ -54,9 +54,9 @@ export default function ContactMethods({ className = '' }: ContactMethodsProps) 
       icon: 'UserGroupIcon',
       title: 'Facebook',
       description: 'Join the community and stay updated',
-      value: 'juma.dev',
+      value: 'Michael Juma',
       action: 'Visit Facebook Page',
-      href: 'https://facebook.com/juma.dev',
+      href: 'https://www.facebook.com/profile.php?id=100090904490870',
       gradient: 'from-blue-600/20 to-indigo-700/20'
     },
     {
@@ -64,9 +64,9 @@ export default function ContactMethods({ className = '' }: ContactMethodsProps) 
       icon: 'CodeBracketIcon',
       title: 'GitHub',
       description: 'Open source collaboration and code reviews',
-      value: 'github.com/juma-dev',
+      value: 'github.com/Michael-juma',
       action: 'View Profile',
-      href: 'https://github.com/juma-dev',
+      href: 'https://github.com/Michael-juma',
       gradient: 'from-slate-700/20 to-slate-900/20'
     }
   ];

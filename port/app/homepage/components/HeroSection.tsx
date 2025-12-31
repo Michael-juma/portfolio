@@ -107,7 +107,7 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
             
             <div className="flex items-center gap-6 mt-8 justify-center lg:justify-start">
               <a
-                href="https://github.com/juma"
+                href="https://github.com/Michael-juma"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-primary transition-fast"
@@ -116,7 +116,7 @@ const HeroSection = ({ className = '' }: HeroSectionProps) => {
                 <Icon name="CodeBracketIcon" size={24} />
               </a>
               <a
-                href="https://linkedin.com/in/juma"
+                href="https://www.linkedin.com/in/michael-juma-obudho-497190364/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-primary transition-fast"
