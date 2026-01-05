@@ -16,10 +16,10 @@ function StatCard({ icon, value, label }: StatCardProps) {
 
 export default function SkillStats() {
   const stats = [
-    { icon: '💻', value: '25+', label: 'Technologies Mastered' },
+    { icon: '💻', value: '10+', label: 'Technologies Mastered' },
     { icon: '🚀', value: '50+', label: 'Projects Completed' },
-    { icon: '⏱️', value: '5+', label: 'Years Experience' },
-    { icon: '🏆', value: '15+', label: 'Certifications' }
+    { icon: '⏱️', value: '2+', label: 'Years Experience' },
+    { icon: '🏆', value: '2+', label: 'Certifications' }
   ];
 
   return (
