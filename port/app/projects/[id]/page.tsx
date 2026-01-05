@@ -29,10 +29,17 @@ export default function ProjectDetail({ params }: Params) {
   return (
     <main className="py-20 bg-background">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-6">
+        <div className="mb-6 flex items-center justify-between">
           <Link href="/projects" className="text-primary hover:underline inline-flex items-center gap-2">
             <Icon name="ArrowLeftIcon" size={18} /> Back to projects
           </Link>
+
+          <div className="flex items-center gap-4">
+            <Link href="/homepage" className="text-sm font-medium text-text-secondary hover:text-primary">Home</Link>
+            <Link href="/about" className="text-sm font-medium text-text-secondary hover:text-primary">About</Link>
+            <Link href="/contact" className="text-sm font-medium text-text-secondary hover:text-primary">Contact</Link>
+            <Link href="/contact" className="px-3 py-2 bg-primary text-primary-foreground rounded-md text-sm font-semibold">Get In Touch</Link>
+          </div>
         </div>
 
         <div className="bg-card rounded-lg border border-border overflow-hidden p-6">

@@ -7,7 +7,6 @@ import TestimonialsSection from './components/TestimonialsSection';
 // Blog preview temporarily commented out — preserved for future feature work
 // import BlogPreview from './components/BlogPreview';
 import CTASection from './components/CTASection';
-import Footer from './components/Footer';
 
 export const metadata: Metadata = {
   title: 'Home - Juma.dev | Fullstack Engineer Portfolio',
@@ -29,7 +28,7 @@ export default function HomePage() {
         <CTASection />
       </main>
 
-      <Footer />
+      
     </div>
   );
 }

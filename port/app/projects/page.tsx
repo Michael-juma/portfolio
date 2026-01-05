@@ -3,6 +3,21 @@ import AppImage from '@/components/ui/AppImage';
 import Icon from '@/components/ui/AppIcon';
 import Link from 'next/link';
 
+function ProjectsNav() {
+  return (
+    <nav className="flex items-center justify-between mb-6">
+      <div className="flex items-center gap-4">
+        <Link href="/homepage" className="text-sm font-medium text-text-secondary hover:text-primary">Home</Link>
+        <Link href="/about" className="text-sm font-medium text-text-secondary hover:text-primary">About</Link>
+        <Link href="/skills" className="text-sm font-medium text-text-secondary hover:text-primary">Skills</Link>
+        <Link href="/resume" className="text-sm font-medium text-text-secondary hover:text-primary">Resume</Link>
+        <Link href="/contact" className="text-sm font-medium text-text-secondary hover:text-primary">Contact</Link>
+      </div>
+      <Link href="/contact" className="px-4 py-2 bg-primary text-primary-foreground rounded-lg text-sm font-semibold">Get In Touch</Link>
+    </nav>
+  );
+}
+
 export const metadata = {
   title: 'Projects',
   description: 'All projects',
@@ -12,6 +27,8 @@ export default function ProjectsPage() {
   return (
     <main className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <ProjectsNav />
+
         <div className="text-center mb-12">
           <h1 className="text-4xl font-headline font-bold text-foreground">All Projects</h1>
           <p className="text-text-secondary mt-3">A collection of projects and case studies.</p>
