@@ -55,13 +55,7 @@ export default function SkillsPage() {
           </div>
         </section>
 
-        <footer className="w-full px-4 py-8 lg:px-8 bg-background border-t border-border">
-          <div className="max-w-6xl mx-auto text-center">
-            <p className="text-text-secondary text-sm">
-              &copy; {new Date().getFullYear()} Juma.dev. All rights reserved.
-            </p>
-          </div>
-        </footer>
+        
       </main>
     </div>
   );
